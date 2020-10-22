@@ -7,9 +7,16 @@ ul,
 ol {
   list-style: none;
 }
+
+a{
+    text-decoration: none;
+}
 body {
   font-family: Montserrat, sans-serif;
 }
+
+/* HEADER START */
+
 header {
   background-color: white;
 }
@@ -37,16 +44,20 @@ nav ul {
 nav ul li a {
   text-decoration: none;
   text-transform: uppercase;
-  padding: 14px;
+  padding: 15px 20px;
   color: rgb(122, 116, 116);
   font-size: 15px;
   font-weight: 600;
-  transition: 0.3s;
 }
 
-nav ul li a :hover{
-    color: red;
+nav ul li a:hover{
+    color: rgb(238, 20, 202);
 }
+
+/* HEADER END*/
+
+/* SECTION START */
+
 .yellow {
   background: url("../images/portfolio-item57.jpg") 0% 0% / cover no-repeat
     fixed;
@@ -81,7 +92,7 @@ section .container {
 }
 section h2 {
   background: white;
-  padding: 10px 25px;
+  padding: 10px 18px;
   font-weight: 400;
 }
 
@@ -93,15 +104,19 @@ section a {
   font-weight: 400;
 }
 
-section a :hover {
+section .container a:hover {
     color: red;
 }
 
 section p {
   color: black;
   padding-bottom: 20px;
+  font-size: 14px;
 }
 
+/* SECTION END */
+
+/* FOOTER START */
 
 footer{
     padding: 30px 0;
@@ -116,7 +131,7 @@ footer{
     width: 60%;
 }
 .copyright p{
-    font-size: 12px;
+    font-size: 16px;
     line-height: 20px;
     color: #6f6f6f;
 }
@@ -128,8 +143,24 @@ footer{
     flex-wrap: wrap;
     justify-content: flex-end;
 }
-.icons ul li{
+.icons ul li a{
     list-style: none;
     margin: 0 10px;
     color: #413d3d;
 }
+
+.icons ul li a .fb:hover{
+    color: rgb(17, 21, 223);
+}
+
+.icons ul li a .tw:hover{
+    color: rgb(25, 198, 241);
+}
+.icons ul li a .gp:hover{
+    color: rgb(207, 23, 23);
+}
+.icons ul li a .lni:hover{
+    color: rgb(32, 107, 204);
+}
+
+/* FOOTER END */
