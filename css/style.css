@@ -10,16 +10,25 @@ ol {
 
 a{
     text-decoration: none;
+    display: block;
 }
 body {
   font-family: Montserrat, sans-serif;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 /* HEADER START */
 
 header {
-  background-color: white;
-  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.719);
+  padding: 5px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
 }
 .container {
   width: 1200px;
@@ -46,15 +55,16 @@ nav ul {
 nav ul li a {
   text-decoration: none;
   text-transform: uppercase;
-  padding: 10px 16px;
   color: rgb(122, 116, 116);
-  /* font-size: 15px; */
   font-weight: 600;
-  font-size: 20px;
+  font-size: 16;
+  padding: 15px 15px;
 }
 
 nav ul li a:hover{
-    color: rgb(238, 20, 202);
+    color: rgb(241, 233, 240);
+    background-color: rgba(137, 43, 226, 0.418) ;
+    border-radius: 10px;
 }
 
 /* HEADER END*/
@@ -131,7 +141,7 @@ section p {
 /* FOOTER START */
 
 footer{
-    padding: 20px 0;
+    padding: 10px;
 }
 
 .logo{
@@ -143,7 +153,7 @@ footer{
     width: 60%;
 }
 .copyright p{
-    font-size: 20px;
+    font-size: 18px;
     line-height: 20px;
     color: #6f6f6f;
     font-weight: 500;
